@@ -1,0 +1,830 @@
+
+body{
+
+  max-width: 1450px;
+  width: 100%;
+  height: auto;
+  margin:0px auto;
+}
+
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../fonts/PoetsenOne-Regular.ttf);
+
+
+}
+
+header{
+    
+    box-sizing: border-box;
+    margin: 92px auto;
+    display: flex;
+    width: 1440px;
+    height: 711px ;
+   
+    position: relative;
+    
+   
+}
+
+.headset{
+    background-image: url("../images/headerback.png"); 
+    background-position: center;
+    background-size: cover;
+    top:0px;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+   margin: 0px auto;
+   
+   
+    
+    
+}
+    
+
+
+.navibar{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1194px;
+    height: 54.94px;
+    margin: 17px auto;
+    
+
+}
+
+
+
+
+
+
+.logo{
+
+
+    background-image: url("../images/logo.svg");
+background-repeat: no-repeat;
+width: 49px;
+height: 56.94px;
+
+
+
+}
+
+
+.logotext{
+    width: 151px;
+    height: 36px;
+
+    margin-left: 60px;
+    margin-top: 10px;
+font-size: 36px;
+font-weight: bolder;
+color: #fff;
+
+
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+    color:#F3F4F6
+    
+    
+}
+
+
+li{
+   
+    padding:10px;
+  
+}
+.contuct{
+
+    background-color: #1D4ED8;
+
+    border-radius: 10px;
+    
+    box-sizing: border-box;
+    text-align: center;
+cursor: pointer;
+transition: ease-in-out(1.2);
+}
+
+.contuct:hover{
+    transform: scale(1.2);
+ 
+
+
+}
+
+
+
+
+.headline{
+
+    width: 1110px;
+    height: 64px;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.headlinetxt{
+   margin-top: 60.06px;
+    font-family: 'PoetsenOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: #E5E5E5;
+}
+
+
+.lorem{
+    width: 954px;
+height: 63px;
+    margin-top: 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+
+}
+
+
+.search{
+    position: relative;
+    width: 891px;
+    height: 75px ;
+    font-size: 24px;
+    margin-top: 79px;
+    
+
+}
+
+input[type=text]{
+    
+    padding-left: 51px;
+    border-radius: 15px;
+    font-size: 24px;
+    color:#E5E5E5;
+    background: linear-gradient(180deg, rgba(240, 139, 117, 0.43) 0%, rgba(34, 68, 103, 0.3) 100%);
+border: 3px solid #E5E5E5;
+backdrop-filter: blur(33px);
+   
+
+}
+
+.searchbarr{
+    width: 891px;
+    height: 75px ;
+    box-sizing: border-box;
+    /* background-image: url("../images/SearchIcon.svg");
+
+    background-repeat: no-repeat;
+    background-position: 825px 18px;  */
+    
+
+    border: 3px solid #E5E5E5;
+    position: relative;
+   
+    
+   
+  
+
+}
+
+form ::placeholder{
+
+   color: #E5E5E5;
+   font-size: 24px;
+   
+    
+}
+.searchicon{
+    position: absolute;
+    top:21px;
+    right: 33.38px;
+
+
+}
+
+
+
+
+/* section */
+
+
+
+
+
+
+.sectionside{
+    width: 1416px;
+    height: 912.78px;
+    display: flex;
+    margin: 42.85px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+  
+
+}
+
+.sectitle{
+    width: 1280px;
+  height: 114px;
+ margin: 0 auto;
+ display: block;
+    
+
+
+ text-align: center;
+ 
+font-family: 'PoetsenOne';
+font-size: 64px;
+margin: 0px auto;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.titleline{
+
+
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400px;
+font-size: 24px;
+line-height: 50px;
+}
+
+
+.country-images{
+
+
+    
+    
+    
+  
+    display: flex;
+    width: 1280px;
+    height: 914px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 64.59px;
+    column-gap: 30px;
+    margin-top: 55px;
+}
+
+
+
+.image-block{
+    
+    width: 405.33px;
+    height: 291.41px;
+   
+}
+      
+
+.image{
+    
+    
+width: 405.33px;
+height: 248px;
+cursor: pointer;
+transition: ease-in-out 0.3s;
+ 
+      
+}
+
+.image:hover {transform: scale(1.5); }
+    
+  
+
+
+.underpic{
+    display: flex;
+    align-content: center;
+    width: 405px;
+    height: 30px;
+    justify-content: center;
+    margin-top: 17px;
+
+}
+  
+.icon{
+
+    display: inline-block;
+}
+.text{
+
+margin-left: 4.91px;
+   font-size: 24px;
+   font-weight: 700;
+   font-family: 'Arial';
+
+   font-style: italic;
+    
+  }
+    
+.progress{
+
+
+    width: 1440px;
+    height: 723.79px;
+    position: relative;
+    background-image: url("../images/progressback.png");
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+    margin: 0px auto;
+
+}
+
+.stats{
+
+width: 1280px;
+height: 288px;
+position: relative;
+top: 119px;
+margin: 0px auto;
+
+background: rgba(29, 78, 216, 0.06);
+border: 1px solid #F3F4F6;
+backdrop-filter: blur(12.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 5px;
+
+
+
+}
+
+.statsections{
+
+
+
+    display: flex;
+    position: absolute;
+    top:206px;
+    width: 1280px;
+    height: 212px;
+    
+    
+    justify-content: center;
+    gap: 14px;
+  
+   
+    
+  
+    
+}
+
+.card1 {
+    background-color: #E5E5E5;
+    
+width: 240px;
+height: 200px;
+border-radius: 5px;
+
+}
+
+/* }
+
+.card2 {
+    background-color: #E5E5E5;
+
+
+width: 240px;
+height: 200px;
+border-radius: 5px;
+
+
+
+} */
+
+
+.title{
+   
+    width: 1120px;
+height:64px ;
+margin: 48px auto 0px;
+text-align: center;
+color: #FFFFFF;
+font-size: 64px;
+font-weight: 400px;
+font-family: 'PoetsenOne';
+font-style: normal;
+
+
+}
+
+.description{
+ 
+    width: 1120px;
+    height:24px ;
+    text-align: center;
+    margin: 12px auto;
+    color: #FFFFFF;
+    font-size: 16px;
+font-weight: 400px;
+font-family: 'Inter';
+font-style: normal;
+
+
+}
+
+.card-title{
+
+
+    width: 207px;
+    height: 16px;
+    margin: 24px 24px auto 24px;
+
+    
+font-family: 'inter';
+font-style: normal;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #1D4ED8;
+}
+
+.quantity{
+    margin: 16px 24px auto 24px;
+    width: 207px;
+    height: 36px; 
+    font-size: 36px;
+    font-weight:400px;
+        
+    font-family: 'inter';
+font-style: normal;
+color: #1F2937;
+    
+
+}
+.card-text{
+
+
+    margin: 24px 24px 24px 24px;
+width: 207px;
+height: 72px; 
+font-size: 16px;
+font-weight: 400px;
+    
+font-family: 'inter';
+font-style: normal;
+color: #4B5563;
+}
+
+
+/* footer */
+
+
+.footersection{
+
+
+    width: 1440px;
+    height: 567px ;
+    background-image: url("../images/footer.png");
+
+    margin: 55.47px auto;
+    position: relative;
+}
+
+
+.help{
+
+display: flex;
+    width: 1440px;
+    height: 76px;
+    
+   row-gap:30px;
+    justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   
+
+    
+    
+}
+
+.helpcard{
+    display: flex;
+width: 378.67px;
+height: 76px;
+
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+.icons{
+
+width: 40px ;
+height: 40px;
+    margin-right: 16px;
+}
+
+
+
+.textblock{
+
+    width: 322.67;
+    height: 48px;
+ 
+
+}
+.helptext1{
+
+width: 322.67;
+height: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #1063B8;
+
+
+}
+
+.helptext2{
+margin-top: 12px;
+    width: 292px;
+    height: 16px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+    font-size: 16px;
+font-weight: 400px;
+color: #FFFFFF;
+}
+
+
+.faq{
+
+
+position: absolute;
+display: flex;
+top:200px;
+left: 80px;
+    width: 850px;
+    height: 184px;
+  
+    
+}
+
+.faqbox {
+
+width: 150px;
+height: 184px;
+
+justify-content: space-between;
+gap:2px;
+margin:0 auto;
+
+}
+
+.faqbox-s{
+    
+    width:190px;
+    height:auto;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+
+
+.travel{
+
+
+    width: 205px;
+    height: 36px;
+    font-size: 36px;
+    font-family: 'Playfair Display SC';
+font-style: normal;
+line-height: 100%;
+    font-weight: 800px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.copyright{
+
+    width: 296px;
+    height: 14px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+    font-size: 14px;
+   
+    color: #FFFFFF;
+
+
+}
+
+.copyright-s{
+
+    margin-top: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14px;
+      
+        color: #FFFFFF;
+}
+
+
+.s .copyright{
+
+margin-top: 16px;
+
+}
+
+.ficons{
+width: 296px;
+height: 31px;
+display: flex;
+margin-top:113px;
+margin-right: 20px;
+justify-content: space-between;
+justify-content: flex-start;
+
+gap:16px;
+
+
+
+}
+
+
+.downmenu1{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Work Sans';
+font-style: normal;
+    font-size: 16px;
+    font-weight: 400px;
+    color:  #FFFFFF;
+}
+
+
+.navtext{
+    margin-bottom: 24px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+color:  #FFFFFF;
+
+
+
+}
+
+.downmenu2{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Work Sans';
+font-style: normal;
+    font-size: 16px;
+    font-weight: 400px;
+    color:  #FFFFFF;
+   
+
+
+}
+
+.faqbox-4{
+
+    display: flex;
+ flex-direction: column;
+    position: relative;
+    margin-left: 1050px;
+    margin-top: 190px;
+width: 360px;
+height: 130px;
+
+  
+}
+
+.update-header{
+
+
+
+   
+    margin-bottom: 16px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+
+input[type=email]{
+
+font-size: 16px;
+
+}
+
+.ui::placeholder{
+
+    font-size: 16px;
+    color: #FFFFFF;
+    
+
+
+}
+
+
+
+.ui{
+
+position: relative;
+width: 296px;
+height: 48px;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+font-size: 16px;
+color: #FFFFFF;
+padding-left: 16px;
+
+
+}
+
+.inputicon{
+
+position: absolute;
+top:55px;
+right: 61px;
+
+
+}
+
+.footertext{
+
+margin:0px auto 24px;
+
+    width: 450px;
+    height: 22px;
+    
+    font-family: 'PoetsenOne';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+letter-spacing: 0.2em;
+
+color: #000000;
+text-align: center;
+}
+
+
+
+
