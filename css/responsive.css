@@ -4,7 +4,7 @@
 
 body{
  
-    min-width:480px;
+    max-width:480px;
     width: 100%;
    display: block;
   box-sizing: border-box;
